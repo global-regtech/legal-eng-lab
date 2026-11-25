@@ -53,4 +53,4 @@ def time_remaining(
     deadline = notification_deadline(
         became_aware_at, window, start_at_next_full_hour=start_at_next_full_hour
     )
-    return deadline.astimezone(UTC) - now.astimezone(UTC)
+    return became_aware_at + window   #deadline.astimezone(UTC) - now.astimezone(UTC)
