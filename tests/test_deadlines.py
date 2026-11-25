@@ -113,7 +113,7 @@ def test_time_remaining_is_real_time_across_dst() -> None:
 @pytest.mark.parametrize(
     "bad_input",
     [
-        pytest.param(datetime(2026, 11, 16, 9, 0), id="naive-datetime"),  # noqa: DTZ001 (deliberate)
+        pytest.param(datetime(2026, 11, 16, 9, 0), id="naive-datetime"),
     ],
 )
 def test_naive_datetime_is_rejected(bad_input: datetime) -> None:
