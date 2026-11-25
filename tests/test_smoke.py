@@ -2,9 +2,7 @@ import pytest
 
 import legal_eng_lab
 
-ART_33_Opening = (
-    "In the case of personal data breach, the controller shall without undue delay"
-)
+ART_33_Opening = "In the case of personal data breach, the controller shall without undue delay"
 
 
 @pytest.fixture
