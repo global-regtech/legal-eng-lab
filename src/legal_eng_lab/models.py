@@ -1,7 +1,7 @@
 "'First Pydantic models"
 
 from datetime import date
-from typing import Literal 
+from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
